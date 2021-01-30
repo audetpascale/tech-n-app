@@ -7,11 +7,11 @@ const NotFoundPage = () => {
   return (
     <Container
       sx={{
-        backgroundImage: "url(\"/img/take-a-nap.jpg\")",
+        backgroundImage: 'url("/img/take-a-nap.jpg")',
         backgroundPosition: "center",
         height: "100vh",
         position: "absolute",
-        width: "100%"
+        width: "100%",
       }}
     >
       <title>Introuvable</title>
