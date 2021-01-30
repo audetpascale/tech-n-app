@@ -2,6 +2,7 @@
 templateKey: blog-post
 title: Anxiété souveraine
 date: 2019-05-06T18:37:00.000Z
+image: help.jpg
 description: L'anti-psaume 131 de David, du calme à l'anxiété
 tags:
   - bible
