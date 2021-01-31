@@ -29,8 +29,8 @@ const IndexPage = (props) => {
                 {post.frontmatter.title}
               </Link>
             </Heading>
-            <Heading as="h4">{post.frontmatter.date}</Heading>
-            <Heading as="h5">{post.frontmatter.description}</Heading>
+            <Heading as="h4">{post.frontmatter.description}</Heading>
+            <Heading as="h5">{post.frontmatter.date}</Heading>
             <Text>{post.excerpt}</Text>
             <Text sx={{ textAlign: "right" }}>
               <Link sx={{ color: "secondary" }} to={post.fields.slug}>
@@ -72,16 +72,16 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          excerpt
+          excerpt(pruneLength: 255)
           fields {
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "D MMMM YYYY", locale: "fr")
             description
             image {
               childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
+                fluid(maxWidth: 2048, quality: 50) {
                   ...GatsbyImageSharpFluid
                 }
               }
