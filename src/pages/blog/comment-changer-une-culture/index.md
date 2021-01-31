@@ -9,7 +9,7 @@ tags:
   - culture
 ---
 
-Selon le livre [_Tribal Leadership_](https://www.triballeadership.net/) et  le [mouvement DevOps](https://itrevolution.com/), tout tourne autour de paradigmes psychologiques:
+Selon le livre [_Tribal Leadership_](https://www.triballeadership.net/) et le [mouvement DevOps](https://itrevolution.com/), tout tourne autour de paradigmes psychologiques:
 le [béhaviorisme](https://fr.wikipedia.org/wiki/B%C3%A9haviorisme), parfois la [psychologie cognito-comportementale](https://fr.wikipedia.org/wiki/Th%C3%A9rapie_cognitivo-comportementale).
 
 Wow, de beaux termes, mais c'est quoi?
