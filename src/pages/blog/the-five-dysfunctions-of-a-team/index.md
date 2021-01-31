@@ -1,28 +1,33 @@
 ---
 templateKey: blog-post
-title: " The Five Dysfunctions of a Team"
+title: The Five Dysfunctions of a Team
 date: 2017-08-01T20:03:00.000Z
 image: maslow.jpg
-description: En référence au livre The Five Dysfunctions of a Team de Patrick
-  Lencioni, ce que j'ai appris.
+description: En référence au livre The Five Dysfunctions of a Team de Patrick Lencioni, ce que j'ai appris.
 ---
-[_The Five Dysfunctions of a Team_](https://www.tablegroup.com/books/dysfunctions)
-de [Patrick Lencioni](https://www.tablegroup.com/pat/) est un livre que je recommande. Cet auteur utilise une fable pour
-expliquer un concept, c'est bien convaincant.
 
-Bon, comment s'y prendre? Faisons comme le livre, prenons tous les membres pour faire un atelier commun.
+[_The Five Dysfunctions of a Team_](https://www.tablegroup.com/books/dysfunctions) de [Patrick Lencioni](https://www.tablegroup.com/pat/) est un livre que je recommande.
+Cet auteur utilise une fable pour expliquer un concept, c'est bien convaincant.
+
+Bon, comment s'y prendre?
+Faisons comme le livre, prenons tous les membres pour faire un atelier commun.
 
 ## Initial
 
-Je suis chef d'équipe de la Plateforme de [Bonjour-santé](https://bonjour-sante.ca/), l'équipe va bien en général, tout
-comme les autres. Il y a des incidents, mais nous les réglons sans trop attendre. Parfois, je dois m'impliquer, alors
-cela soulève le point. Est-ce que tous les membres de l'équipe ont confiance? Non si je dois m'impliquer.
+Je suis chef d'équipe de la Plateforme de [Bonjour-santé](https://bonjour-sante.ca/), l'équipe va bien en général, tout comme les autres.
+Il y a des incidents, mais nous les réglons sans trop attendre.
+Parfois, je dois m'impliquer, alors cela soulève le point.
+Est-ce que tous les membres de l'équipe ont confiance?
+Non si je dois m'impliquer.
 
-Au niveau des connaissances, certains progressent peu. Pourquoi? Comme j'ai un baggage imposant, ceux-ci ont-ils peur de
-me décevoir en me demandant de l'aide? Je l'ignore.
+Au niveau des connaissances, certains progressent peu.
+Pourquoi?
+Comme j'ai un baggage imposant, ceux-ci ont-ils peur de me décevoir en me demandant de l'aide?
+Je l'ignore.
 
-L'important est que je me suis questionnée et j'ai compris qu'il y a un manque de confiance. Oui, nous allons _bien_
-comparativement aux équipes, incluant celles que j'ai eues antérieurement. Cependant, ce n'est pas suffisant.
+L'important est que je me suis questionnée et j'ai compris qu'il y a un manque de confiance.
+Oui, nous allons _bien_ comparativement aux équipes, incluant celles que j'ai eues antérieurement.
+Cependant, ce n'est pas suffisant.
 
 ## Confiance
 
@@ -30,7 +35,8 @@ _La peur d'être vulnérable avec les membres de l'équipe empêche la construct
 
 Alors mettons les cartes sur table!
 
-Comme la fable et le concept explique, il faut montrer ses vulnérabilités. Je casse la glace:
+Comme la fable et le concept explique, il faut montrer ses vulnérabilités.
+Je casse la glace:
 
 > Ayant la dysphasie (sémantique-pragmatique), j'ai essayé plusieurs alternatives pour pallier aux dysfonctionnements du langage.
 > J'ai compris que je peux me permettre des erreurs pour apprendre, ce qui fait partie maintenant de moi: essayer!
@@ -68,20 +74,22 @@ Alors je continue mon histoire précédente.
 
 ## Redevabilité
 
-_La nécessité d'éviter l'inconfort interpersonnel empêche les membres de l'équipe de se tenir mutuellement responsables
-de leurs comportements et de leurs performances._
+_La nécessité d'éviter l'inconfort interpersonnel empêche les membres de l'équipe de se tenir mutuellement responsables de leurs comportements et de leurs performances._
 
-C'est un moyen de tenir notre faim envers le travail. Je passe rapidement sur la redevabilité, par manque de temps lors
-de cet atelier. En contre-partie, je vais pousser sur cet aspect lors des rencontres individuelles bi-hebdomadaires.
-Comment? En questionnant sur ce que la personne fait pour changer la vie de l'autre. Rien de plus!
+C'est un moyen de tenir notre faim envers le travail.
+Je passe rapidement sur la redevabilité, par manque de temps lors de cet atelier.
+En contre-partie, je vais pousser sur cet aspect lors des rencontres individuelles bi-hebdomadaires.
+Comment?
+En questionnant sur ce que la personne fait pour changer la vie de l'autre.
+Rien de plus!
 
 ## But
 
 _La poursuite des objectifs individuels et du statut personnel érode l'accent mis sur le succès collectif._
 
-Lui aussi, par manque de temps, je passe rapidement. En contre-partie, nous nous entendons pour aller chercher
-l'objectif du produit. Lorsque trouvé, nous questionnerons le support aux clients au semaine pour s'assurer l'atteinte
-du but.
+Lui aussi, par manque de temps, je passe rapidement.
+En contre-partie, nous nous entendons pour aller chercher l'objectif du produit.
+Lorsque trouvé, nous questionnerons le support aux clients au semaine pour s'assurer l'atteinte du but.
 
 ## Final
 
@@ -89,9 +97,10 @@ Sur le coup, il y a eu une paix.
 
 Les quelques mois suivants...
 
-Personne n'a profité de la vulnérabilité de l'autre pour l'exploiter. Au contraire, nous nous sommes aidés et avons
-comblé les soucis naturellement. Nous nous sommes plus défiés et nous aimons cela!
+Personne n'a profité de la vulnérabilité de l'autre pour l'exploiter.
+Au contraire, nous nous sommes aidés et avons comblé les soucis naturellement.
+Nous nous sommes plus défiés et nous aimons cela!
 Nous avons un lien presque tangible entre nous.
 
-J'ai constaté que je prends moins de temps pour la gestion. Je peux consacrer du temps à faire ce que j'aime et offrir
-le meilleur pour tous.
+J'ai constaté que je prends moins de temps pour la gestion.
+Je peux consacrer du temps à faire ce que j'aime et offrir le meilleur pour tous.
