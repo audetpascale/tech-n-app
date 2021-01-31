@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 /** @jsx jsx */
 // noinspection ES6UnusedImports
 import { Box, Container, Heading, jsx, Text } from "theme-ui";
+import { Helmet } from "react-helmet";
 
 const NotFoundPage = () => {
   return (
@@ -14,7 +15,10 @@ const NotFoundPage = () => {
         width: "100%",
       }}
     >
-      <title>Introuvable</title>
+      <Helmet>
+        <title>Introuvable</title>
+        <meta httpEquiv="content-language" content="fr-ca" />
+      </Helmet>
       <Box sx={{ m: "10%" }}>
         <Heading>404 Fichier introuvable</Heading>
         <Text sx={{ mt: "55vh" }}>
