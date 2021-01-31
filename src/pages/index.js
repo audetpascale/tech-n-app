@@ -13,7 +13,7 @@ const IndexPage = (props) => {
         const img = (
           <Box
             sx={{
-              backgroundImage: `url(/img/${post.id}.jpg)`,
+              backgroundImage: `url(${post.frontmatter.image.childImageSharp.fluid.src})`,
               backgroundPosition: "center",
             }}
           />
@@ -26,6 +26,7 @@ const IndexPage = (props) => {
               </Link>
             </Heading>
             <Heading as="h4">{post.frontmatter.date}</Heading>
+            <Heading as="h5">{post.frontmatter.description}</Heading>
             <Text>{post.excerpt}</Text>
             <Text sx={{ textAlign: "right" }}>
               <Link sx={{ color: "secondary" }} to={post.fields.slug}>
@@ -66,15 +67,23 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt
           id
+          excerpt
           fields {
             slug
           }
           frontmatter {
-            title
-            templateKey
             date(formatString: "MMMM DD, YYYY")
+            description
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            templateKey
+            title
           }
         }
       }
