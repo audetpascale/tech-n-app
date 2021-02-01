@@ -6,4 +6,8 @@ export default {
     ...deep.lineHeights,
     heading: 2,
   },
+  sizes: {
+    ...deep.sizes,
+    container: 1024,
+  },
 };

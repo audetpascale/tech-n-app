@@ -1,8 +1,8 @@
+import { Helmet } from "react-helmet";
 import { Link } from "gatsby";
 /** @jsx jsx */
 // noinspection ES6UnusedImports
 import { Box, Container, Heading, jsx, Text } from "theme-ui";
-import { Helmet } from "react-helmet";
 
 const NotFoundPage = () => {
   return (

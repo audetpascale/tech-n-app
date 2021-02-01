@@ -1,14 +1,14 @@
 import { graphql, Link } from "gatsby";
+import { Helmet } from "react-helmet";
 import PropTypes from "prop-types";
 /** @jsx jsx */
 // noinspection ES6UnusedImports
 import { Box, Container, Grid, Heading, jsx, Text } from "theme-ui";
-import { Helmet } from "react-helmet";
 
 const IndexPage = (props) => {
   let imageWasRight = true;
   return (
-    <Container>
+    <div>
       <Helmet>
         <title>Accueil</title>
         <meta httpEquiv="content-language" content="fr-ca" />
@@ -49,7 +49,7 @@ const IndexPage = (props) => {
           </Grid>
         );
       })}
-    </Container>
+    </div>
   );
 };
 
