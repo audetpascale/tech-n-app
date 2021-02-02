@@ -9,7 +9,7 @@ const IndexPage = (props) => {
   let imageWasRight = true;
 
   return (
-    <Layout title="Accueil">
+    <Layout>
       {props.data.allMarkdownRemark.edges.map(({ node: post }) => {
         const img = (
           <Box

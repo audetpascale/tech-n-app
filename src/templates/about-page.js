@@ -1,21 +1,32 @@
-import React from "react";
-import PropTypes from "prop-types";
+/** @jsx jsx */
+// noinspection ES6UnusedImports
+import { Container, Heading, jsx, Text } from "theme-ui";
 import { graphql } from "gatsby";
-import { Container, Heading, Text } from "theme-ui";
-import { Helmet } from "react-helmet";
+import Layout from "../components/Layout";
+import PropTypes from "prop-types";
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
+  // backgroundImage: `url(${post.frontmatter.image.childImageSharp.fluid.src})`,
   return (
-    <Container>
-      <Helmet>
-        <title>{post.frontmatter.title}</title>
-        <meta httpEquiv="content-language" content="fr-ca" />
-      </Helmet>
-      <Heading as="h2">{post.frontmatter.title}</Heading>
-      <Text dangerouslySetInnerHTML={{ __html: post.html }} />
-    </Container>
+    <Layout
+      title={post.frontmatter.title}
+      description={post.frontmatter.description}
+    >
+      <Container>
+        <Heading
+          as="h2"
+          sx={{
+            backgroundPosition: "center",
+          }}
+        >
+          {post.frontmatter.title}
+        </Heading>
+        <Heading as="h3">{post.frontmatter.description}</Heading>
+        <Text dangerouslySetInnerHTML={{ __html: post.html }} />
+      </Container>
+    </Layout>
   );
 };
 
@@ -31,6 +42,14 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        description
+        image {
+          childImageSharp {
+            fluid(quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
