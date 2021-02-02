@@ -1,6 +1,6 @@
 /** @jsx jsx */
 // noinspection ES6UnusedImports
-import { Container, Heading, jsx, Text } from "theme-ui";
+import { Container, Heading, Image, jsx, Text } from "theme-ui";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PropTypes from "prop-types";
@@ -8,22 +8,21 @@ import PropTypes from "prop-types";
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
-  // backgroundImage: `url(${post.frontmatter.image.childImageSharp.fluid.src})`,
   return (
     <Layout
       title={post.frontmatter.title}
       description={post.frontmatter.description}
+      image={post.frontmatter.image.childImageSharp.fluid.src}
+      ogType="article:author"
     >
       <Container>
-        <Heading
-          as="h2"
-          sx={{
-            backgroundPosition: "center",
-          }}
-        >
-          {post.frontmatter.title}
-        </Heading>
-        <Heading as="h3">{post.frontmatter.description}</Heading>
+        <Image
+          src={post.frontmatter.image.childImageSharp.fluid.src}
+          variant="heading"
+          sx={{ objectPosition: "bottom" }}
+        />
+        <Heading as="h2">{post.frontmatter.title}</Heading>
+        <Heading as="h4">{post.frontmatter.description}</Heading>
         <Text dangerouslySetInnerHTML={{ __html: post.html }} />
       </Container>
     </Layout>
