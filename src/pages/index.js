@@ -4,12 +4,13 @@ import PropTypes from "prop-types";
 /** @jsx jsx */
 // noinspection ES6UnusedImports
 import { Box, Container, Grid, Heading, jsx, Text } from "theme-ui";
+import React from "react";
 
 const IndexPage = (props) => {
   let imageWasRight = true;
   return (
     <div>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "fr-ca" }}>
         <title>Accueil</title>
         <meta httpEquiv="content-language" content="fr-ca" />
       </Helmet>

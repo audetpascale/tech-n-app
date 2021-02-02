@@ -4,6 +4,8 @@ module.exports = {
     author: "Pascale Audet",
     description:
       "Techniques et applications à développer. Suivez-moi sur mon blog ! Apprenez et profitez de mes apprentissages et de mes erreurs - progressez avec moi !",
+    image: "/icons/icon-512x512.png",
+    language: "fr-ca",
     siteUrl: "https://tech-n-app.audetpascale.com",
   },
   plugins: [

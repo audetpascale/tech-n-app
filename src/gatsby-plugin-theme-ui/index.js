@@ -2,6 +2,12 @@ import { deep } from "@theme-ui/presets";
 
 export default {
   ...deep,
+  layout: {
+    ...deep.layout,
+    container: {
+      p: 3,
+    },
+  },
   lineHeights: {
     ...deep.lineHeights,
     heading: 2,
