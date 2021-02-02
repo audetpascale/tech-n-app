@@ -1,6 +1,9 @@
 ---
 templateKey: about-page
 title: À propos
+image: /img/profile-pic.jpg
+description: Résolveur de problèmes | Programmeur | Architecte | DevOps |
+  Analyste | Assurance qualité | Chef de projet | Chef tribal
 ---
 
 Pascale-Andrée Audet est une développeuse de systèmes informatiques et de compétences humaines.
