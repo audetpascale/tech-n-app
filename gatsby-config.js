@@ -7,6 +7,7 @@ module.exports = {
     image: "/icons/icon-512x512.png",
     language: "fr-ca",
     siteUrl: "https://tech-n-app.audetpascale.com",
+    twitterUsername: "audetpascalea",
   },
   plugins: [
     "gatsby-plugin-netlify-cms",

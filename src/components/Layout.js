@@ -1,8 +1,9 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import { Helmet } from "react-helmet";
+import { useLocation } from "@reach/router";
 
-const Layout = ({ children, title, description, ogImage, ogType }) => {
+const Layout = ({ children, title, description, image, ogType }) => {
   const data = useStaticQuery(graphql`
     query siteMetadata {
       site {
@@ -13,28 +14,42 @@ const Layout = ({ children, title, description, ogImage, ogType }) => {
           image
           language
           siteUrl
+          twitterUsername
         }
       }
     }
   `);
 
-  const titleWithSite =
-    (title == null ? "" : `${title} | `) + data.site.siteMetadata.title;
+  const seo = {
+    title: (title == null ? "" : `${title} | `) + data.site.siteMetadata.title,
+    description: description || data.site.siteMetadata.description,
+    image: `${data.site.siteMetadata.siteUrl}${
+      image || data.site.siteMetadata.image
+    }`,
+    url: `${data.site.siteMetadata.siteUrl}${useLocation().pathname}`,
+  };
 
   return (
     <div>
-      <Helmet>
+      <Helmet title={seo.title}>
         <html lang="fr-ca" />
-        <title>{titleWithSite}</title>
-        <meta name="description" content={description} />
+        <meta name="description" content={seo.description} />
+        <meta name="image" content={seo.image} />
 
+        <meta property="og:title" content={seo.title} />
+        <meta property="og:description" content={seo.description} />
         <meta property="og:type" content={ogType || "website"} />
-        <meta property="og:title" content={titleWithSite} />
-        <meta property="og:url" content="/" />
+        <meta property="og:url" content={seo.url} />
+        <meta property="og:image" content={seo.image} />
+
+        <meta name="twitter:title" content={seo.title} />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta
-          property="og:image"
-          content={ogImage || data.site.siteMetadata.image}
+          name="twitter:creator"
+          content={data.site.siteMetadata.description.twitterUsername}
         />
+        <meta name="twitter:description" content={seo.description} />
+        <meta name="twitter:image" content={seo.image} />
       </Helmet>
       {children}
     </div>

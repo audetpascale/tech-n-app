@@ -1,22 +1,19 @@
-import { graphql, Link } from "gatsby";
-import { Helmet } from "react-helmet";
-import PropTypes from "prop-types";
 /** @jsx jsx */
 // noinspection ES6UnusedImports
 import { Box, Container, Grid, Heading, jsx, Text } from "theme-ui";
-import React from "react";
+import { graphql, Link } from "gatsby";
+import Layout from "../components/Layout";
+import PropTypes from "prop-types";
 
 const IndexPage = (props) => {
   let imageWasRight = true;
+
   return (
-    <div>
-      <Helmet htmlAttributes={{ lang: "fr-ca" }}>
-        <title>Accueil</title>
-        <meta httpEquiv="content-language" content="fr-ca" />
-      </Helmet>
+    <Layout title="Accueil">
       {props.data.allMarkdownRemark.edges.map(({ node: post }) => {
         const img = (
           <Box
+            key="img"
             sx={{
               backgroundImage: `url(${post.frontmatter.image.childImageSharp.fluid.src})`,
               backgroundPosition: "center",
@@ -24,7 +21,7 @@ const IndexPage = (props) => {
           />
         );
         const text = (
-          <Box p={4}>
+          <Container key="info">
             <Heading as="h3">
               <Link sx={{ color: "primary" }} to={post.fields.slug}>
                 {post.frontmatter.title}
@@ -38,19 +35,19 @@ const IndexPage = (props) => {
                 Lire →
               </Link>
             </Text>
-          </Box>
+          </Container>
         );
 
-        const boxes = imageWasRight ? [img, text] : [text, img];
+        const elements = imageWasRight ? [img, text] : [text, img];
         imageWasRight = !imageWasRight;
 
         return (
           <Grid key={post.id} columns={2} width={256}>
-            {boxes}
+            {elements}
           </Grid>
         );
       })}
-    </div>
+    </Layout>
   );
 };
 
@@ -67,8 +64,9 @@ IndexPage.propTypes = {
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+      limit: 10
+      sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
         node {
