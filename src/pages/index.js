@@ -17,6 +17,7 @@ const IndexPage = (props) => {
             sx={{
               backgroundImage: `url(${post.frontmatter.image.childImageSharp.fluid.src})`,
               backgroundPosition: "center",
+              backgroundSize: "100% auto",
             }}
           />
         );
