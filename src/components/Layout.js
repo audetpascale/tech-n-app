@@ -1,8 +1,9 @@
-import React from "react";
+import Footer from "./Footer";
 import { graphql, useStaticQuery } from "gatsby";
 import { Helmet } from "react-helmet";
-import Menu from "./Menu";
+import Header from "./Header";
 import { useLocation } from "@reach/router";
+import React from "react";
 
 const Layout = ({ children, title, description, image, ogType }) => {
   const data = useStaticQuery(graphql`
@@ -52,8 +53,9 @@ const Layout = ({ children, title, description, image, ogType }) => {
         <meta name="twitter:description" content={seo.description} />
         <meta name="twitter:image" content={seo.image} />
       </Helmet>
-      <Menu />
+      <Header />
       {children}
+      <Footer />
     </div>
   );
 };

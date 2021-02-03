@@ -16,28 +16,34 @@ const AboutPage = ({ data }) => {
       image={post.frontmatter.image.childImageSharp.fluid.src}
       ogType="article"
     >
-      <Container>
-        <Image
-          src={post.frontmatter.image.childImageSharp.fluid.src}
-          variant="heading"
-        />
-        <Heading as="h2">{post.frontmatter.title}</Heading>
-        <Heading as="h3">{post.frontmatter.description}</Heading>
-        <Heading as="h4">{post.frontmatter.date}</Heading>
-        <Text dangerouslySetInnerHTML={{ __html: post.html }} />
-        {tags && tags.length ? (
-          <div style={{ marginTop: `4rem` }}>
-            <h4>Tags</h4>
-            <ul className="taglist">
-              {tags.map((tag) => (
-                <li key={tag + `tag`}>
-                  <Link to={`/tags/${tag}/`}>{tag}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ) : null}
-      </Container>
+      <article>
+        <Container>
+          <Image
+            src={post.frontmatter.image.childImageSharp.fluid.src}
+            variant="heading"
+          />
+          <Heading as="h2">{post.frontmatter.title}</Heading>
+          <Heading as="h3">{post.frontmatter.description}</Heading>
+          <Heading as="h4">
+            <time dateTime={post.frontmatter.date}>
+              {post.frontmatter.date}
+            </time>
+          </Heading>
+          <Text dangerouslySetInnerHTML={{ __html: post.html }} />
+          {tags && tags.length ? (
+            <div style={{ marginTop: `4rem` }}>
+              <h4>Tags</h4>
+              <ul className="taglist">
+                {tags.map((tag) => (
+                  <li key={tag + `tag`}>
+                    <Link to={`/tags/${tag}/`}>{tag}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+        </Container>
+      </article>
     </Layout>
   );
 };
