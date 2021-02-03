@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import { Helmet } from "react-helmet";
+import Menu from "./Menu";
 import { useLocation } from "@reach/router";
 
 const Layout = ({ children, title, description, image, ogType }) => {
@@ -51,6 +52,7 @@ const Layout = ({ children, title, description, image, ogType }) => {
         <meta name="twitter:description" content={seo.description} />
         <meta name="twitter:image" content={seo.image} />
       </Helmet>
+      <Menu />
       {children}
     </div>
   );
