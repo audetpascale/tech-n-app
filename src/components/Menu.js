@@ -1,17 +1,16 @@
 /** @jsx jsx */
 // noinspection ES6UnusedImports
 import { Container, Flex, jsx, NavLink } from "theme-ui";
-import React from "react";
 
 const Menu = () => {
   return (
-    <div sx={{ backgroundColor: "highlight" }}>
+    <div sx={{ backgroundColor: "muted" }}>
       <Container>
         <Flex as="nav">
-          <NavLink href="/" p={2}>
+          <NavLink href="/" px={4}>
             Accueil
           </NavLink>
-          <NavLink href="/about" p={2}>
+          <NavLink href="/about" px={4}>
             À propos
           </NavLink>
         </Flex>

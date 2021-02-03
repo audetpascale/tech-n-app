@@ -1,9 +1,9 @@
-import { deep } from "@theme-ui/presets";
+import { roboto } from "@theme-ui/presets";
 
 export default {
-  ...deep,
+  ...roboto,
   images: {
-    ...deep.images,
+    ...roboto.images,
     heading: {
       objectFit: "cover",
       width: "100%",
@@ -13,17 +13,17 @@ export default {
     },
   },
   layout: {
-    ...deep.layout,
+    ...roboto.layout,
     container: {
       p: 3,
     },
   },
   lineHeights: {
-    ...deep.lineHeights,
+    ...roboto.lineHeights,
     heading: 2,
   },
   sizes: {
-    ...deep.sizes,
+    ...roboto.sizes,
     container: 1024,
   },
 };
