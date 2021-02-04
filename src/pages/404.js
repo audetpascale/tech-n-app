@@ -11,12 +11,10 @@ const NotFoundPage = () => {
         sx={{
           backgroundImage: 'url("/img/take-a-nap.jpg")',
           backgroundPosition: "center",
-          height: "100vh",
-          position: "absolute",
           width: "100%",
         }}
       >
-        <Container>
+        <Container variant="main">
           <Heading as="h1">404 Fichier introuvable</Heading>
           <Text sx={{ mt: "50vh" }}>
             Je suis désolée,{" "}

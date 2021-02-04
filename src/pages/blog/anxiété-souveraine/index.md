@@ -7,6 +7,7 @@ description: L'anti-psaume 131 de David, du calme à l'anxiété
 tags:
   - bible
   - calme
+  - humilité
 ---
 
 Voici un anti-psaume, l'opposé de l'original. Merci Serge pour ce cadeau.

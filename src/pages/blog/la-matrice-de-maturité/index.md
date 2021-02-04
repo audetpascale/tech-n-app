@@ -4,6 +4,11 @@ title: La matrice de maturité
 date: 2018-09-05T00:02:00.000Z
 image: divide.jpg
 description: Diviser les problèmes pour mieux régner
+tags:
+  - devops
+  - matrice
+  - maturité
+  - conway
 ---
 
 C'est mon premier Tech'n App en tant qu'atelier.

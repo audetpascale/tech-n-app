@@ -4,6 +4,11 @@ title: Leadership
 date: 2013-10-02T00:52:00.000Z
 image: begin.jpg
 description: Comment je me suis distinguée la toute première fois.
+tags:
+  - leadership
+  - humilité
+  - faim
+  - service
 ---
 
 Je suis jeune.

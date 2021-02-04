@@ -4,6 +4,12 @@ title: Pourquoi ce nom?
 date: 2018-09-02T00:33:00.000Z
 image: technic.jpg
 description: L'histoire derrière ce nom unique, Tech'n app.
+tags:
+  - leadership
+  - technique
+  - application
+  - technologie
+  - temps
 ---
 
 Je suis chef d'équipe de la Plateforme de [Bonjour-santé](https://bonjour-sante.ca/).

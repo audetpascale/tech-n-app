@@ -8,6 +8,7 @@ tags:
   - matrice
   - maturité
   - tribu
+  - expérience
 ---
 
 Avant tout, si vous n'y êtes pas familiers, consulter l'[article original à propos de la matrice de la maturité](/matrice-de-maturite/).

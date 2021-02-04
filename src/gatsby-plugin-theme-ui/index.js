@@ -17,6 +17,9 @@ export default {
     container: {
       p: 3,
     },
+    main: {
+      minHeight: "calc(100vh - 112px)",
+    },
   },
   lineHeights: {
     ...roboto.lineHeights,

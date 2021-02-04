@@ -17,7 +17,7 @@ const AboutPage = ({ data }) => {
       ogType="article"
     >
       <article>
-        <Container>
+        <Container variant="main">
           <Image
             src={post.frontmatter.image.childImageSharp.fluid.src}
             variant="heading"

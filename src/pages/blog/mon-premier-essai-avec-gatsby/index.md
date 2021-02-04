@@ -4,6 +4,9 @@ title: Mon premier essai avec Gatsby
 date: 2019-05-03T23:28:00.000Z
 image: gatsby.jpg
 description: Ce qui m'entraine pour l'essai de quelque chose de nouveau.
+tags:
+  - gatsby
+  - technologie
 ---
 
 Quand je me déplace pour travailler à Boucherville, je covoiture.
