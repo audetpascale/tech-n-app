@@ -55,7 +55,10 @@ const Layout = ({ children, title, description, image, ogType }) => {
       </Helmet>
       <Header />
       {children}
-      <Footer />
+      <Footer
+        author={data.site.siteMetadata.author}
+        title={data.site.siteMetadata.title}
+      />
     </div>
   );
 };
