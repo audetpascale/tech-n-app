@@ -1,10 +1,8 @@
+import ApexCharts from "react-apexcharts";
 import { Container } from "theme-ui";
 import { graphql, navigate } from "gatsby";
 import Layout from "../../components/Layout";
 import React from "react";
-
-const ApexCharts =
-  typeof window !== `undefined` ? require("react-apexcharts") : null;
 
 const TagsPage = ({ data }) => {
   const series = [
@@ -30,7 +28,7 @@ const TagsPage = ({ data }) => {
   return (
     <Layout title="Étiquette">
       <Container variant="main">
-        {ApexCharts && (
+        {typeof window !== "undefined" && ApexCharts != null && (
           <ApexCharts
             options={options}
             series={series}
