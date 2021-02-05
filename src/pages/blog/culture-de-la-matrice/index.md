@@ -3,18 +3,23 @@ templateKey: blog-page
 title: Culture de la matrice
 date: 2018-09-14T23:13:00.000Z
 image: data.jpg
-description: Comment appliquer le Tribal Leadership à la matrice de la maturité.
+description: Comment appliquer le "Tribal Leadership" à la matrice de la maturité.
 tags:
-  - matrice
-  - maturité
-  - tribu
+  - collaboration
   - expérience
+  - individu
+  - itération
+  - maturité
+  - prédiction
+  - tribu
 ---
 
 Avant tout, si vous n'y êtes pas familiers, consulter l'[article original à propos de la matrice de la maturité](/matrice-de-maturite/).
 
 Sur l'axe culturel, il y a cinq points.
 Ceux-ci sont aussi représentés par le livre [_Tribal Leadership_](https://www.triballeadership.net/).
+Attention!
+Il ne faut pas aussi assumer que tous sont dans le stade associé.
 
 ## Individualiste
 
@@ -49,9 +54,9 @@ Globalement, environ 25% des tribus en milieu de travail sont dominantes au stad
 
 ## Itérative
 
-Chacun demande des services.
+Chacun demande des services aux intervenants lors des itérations.
 Chacun mérite l'attention et le service rapidement, _comme si_ sa vie était en jeu.
-Notons que ce n'est pas sa vie qui est en jeu, mais sa réputation.
+Notons que ce n'est pas sa vie qui est en jeu, mais sa réputation et son itération.
 
 Le type de relations mis de l'avant sont les dyades (1-1).
 

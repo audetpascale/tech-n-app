@@ -4,6 +4,9 @@ title: S'aimer
 date: 2019-05-14T22:30:00.000Z
 image: aimer.jpg
 description: Tu aimeras ton prochain comme toi-même. - Marc 12.31
+tags:
+  - bible
+  - aimer
 ---
 
 > Tu aimeras ton prochain comme toi-même.

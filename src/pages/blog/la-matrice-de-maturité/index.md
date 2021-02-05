@@ -5,10 +5,9 @@ date: 2018-09-05T00:02:00.000Z
 image: divide.jpg
 description: Diviser les problèmes pour mieux régner
 tags:
-  - devops
-  - matrice
-  - maturité
   - conway
+  - devops
+  - maturité
 ---
 
 C'est mon premier Tech'n App en tant qu'atelier.
@@ -24,7 +23,7 @@ Les professionnels du domaine informatique se sont réunis pour créer un mouvem
 Avec le temps, les professionnels ont fait la matrice de maturité.
 
 Voici celle qui est disponible chez [Container Solutions](https://container-solutions.com/cloud-native-maturity-matrix/).
-![matrice](https://blog.container-solutions.com/hubfs/CS--LP__assets/CS--LP__images/mm_diagram.png)
+![matrice](../../../images/mm_diagram.png)
 
 L'idée est simple.
 
@@ -45,7 +44,7 @@ Briser les projets en petites fonctionnalités pour livrer plus rapidement.
 Bien que négligée, la culture a un grand impact sur tout le reste, comme le mentionne Conway.
 Prenons l'exemple d'une culture prédictive.
 Si nous optons pour un approvisionnement avec moins de serveurs (_serverless_), alors comment pourrions-nous prédire le tout?
-L'objectif est justement de ne pas prédire et d'être anti-fragile.
+L'objectif est justement de ne pas prédire les moindres détails et d'être anti-fragile.
 Alors comment des gens qui souhaitent tout prédire vivraient dans ce contexte?
 La culture rapporterait l'approvisionnement vers la gauche qui est plus prédictif.
 

@@ -5,13 +5,10 @@ date: 2019-09-15T22:39:00.000Z
 image: people.jpg
 description: La psychologie comportementale au coeur des mouvements
 tags:
-  - tribu
   - culture
-  - béhaviorisme
-  - psychologie
-  - cognition
-  - comportement
   - devops
+  - psychologie
+  - tribu
 ---
 
 Selon le livre [_Tribal Leadership_](https://www.triballeadership.net/) et le [mouvement DevOps](https://itrevolution.com/), tout tourne autour de paradigmes psychologiques:

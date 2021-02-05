@@ -10,6 +10,7 @@ tags:
   - humilité
   - leadership
   - service
+  - symmathésie
 ---
 
 Je suis jeune.

@@ -4,6 +4,10 @@ title: Symmathésie
 date: 2019-05-17T23:31:00.000Z
 image: kata.jpg
 description: La Kata de la symmathésie
+tags:
+  - culture
+  - équipe
+  - symmathésie
 ---
 
 Il y a deux ou trois ans, je suggèrais un changement et on me répondait:
