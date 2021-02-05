@@ -22,6 +22,7 @@ const AboutPage = ({ data }) => {
           sx={{ objectPosition: "bottom" }}
         />
         <Heading as="h2">{post.frontmatter.title}</Heading>
+        <Heading as="h3">{data.site.siteMetadata.author}</Heading>
         <Heading as="h4">{post.frontmatter.description}</Heading>
         <Text dangerouslySetInnerHTML={{ __html: post.html }} />
       </Container>
@@ -37,6 +38,11 @@ export default AboutPage;
 
 export const pageQuery = graphql`
   query AboutPage($id: String!) {
+    site {
+      siteMetadata {
+        author
+      }
+    }
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

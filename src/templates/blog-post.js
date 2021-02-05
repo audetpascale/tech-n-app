@@ -1,11 +1,11 @@
 /** @jsx jsx */
 // noinspection ES6UnusedImports
-import { Container, Heading, Image, jsx, Link, Text } from "theme-ui";
-import { graphql } from "gatsby";
+import { Container, Heading, Image, jsx, Text } from "theme-ui";
+import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import PropTypes from "prop-types";
 
-const AboutPage = ({ data }) => {
+const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
   const tags = post.frontmatter.tags;
 
@@ -31,15 +31,13 @@ const AboutPage = ({ data }) => {
           </Heading>
           <Text dangerouslySetInnerHTML={{ __html: post.html }} />
           {tags && tags.length ? (
-            <div style={{ marginTop: `4rem` }}>
-              <h4>Tags</h4>
-              <ul className="taglist">
-                {tags.map((tag) => (
-                  <li key={tag + `tag`}>
-                    <Link to={`/tags/${tag}/`}>{tag}</Link>
-                  </li>
-                ))}
-              </ul>
+            <div>
+              <Heading as="h4">Étiquette</Heading>
+              {tags.map((tag) => (
+                <Link key={tag} to={`/tags/${tag}/`} sx={{ m: 1 }}>
+                  #{tag}
+                </Link>
+              ))}
             </div>
           ) : null}
         </Container>
@@ -48,11 +46,11 @@ const AboutPage = ({ data }) => {
   );
 };
 
-AboutPage.propTypes = {
+BlogPost.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default AboutPage;
+export default BlogPost;
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {

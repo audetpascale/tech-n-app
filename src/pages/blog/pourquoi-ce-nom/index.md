@@ -3,17 +3,18 @@ templateKey: blog-post
 title: Pourquoi ce nom?
 date: 2018-09-02T00:33:00.000Z
 image: technic.jpg
-description: L'histoire derrière ce nom unique, Tech'n app.
+description: L'histoire derrière ce nom unique, Tech 'n' app.
 tags:
+  - application
+  - équipe
   - leadership
   - technique
-  - application
   - technologie
   - temps
 ---
 
 Je suis chef d'équipe de la Plateforme de [Bonjour-santé](https://bonjour-sante.ca/).
-Je me cherche du temps.
+Je me cherche du temps pour faire de la programmation.
 Je liste donc ce que je fais pour savoir comment optimiser mon temps.
 Suivant l'exercice, j'ai vite vu que je me répète souvent pour des explications.
 

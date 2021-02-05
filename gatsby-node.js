@@ -6,7 +6,7 @@ exports.createPages = ({ actions, graphql }) => {
 
   return graphql(`
     {
-      allMarkdownRemark(limit: 1000) {
+      allMarkdownRemark {
         edges {
           node {
             id
@@ -35,10 +35,26 @@ exports.createPages = ({ actions, graphql }) => {
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
         component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          `src/templates/${edge.node.frontmatter.templateKey}.js`
         ),
         context: {
           id,
+        },
+      });
+    });
+
+    let tags = new Set();
+    posts.forEach((edge) => {
+      if (edge.node?.frontmatter?.tags != null) {
+        edge.node.frontmatter.tags.forEach((tag) => tags.add(tag));
+      }
+    });
+    tags.forEach((tag) => {
+      createPage({
+        path: `/tags/${tag}/`,
+        component: path.resolve(`src/templates/tag-page.js`),
+        context: {
+          tag,
         },
       });
     });

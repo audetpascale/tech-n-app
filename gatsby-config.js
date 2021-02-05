@@ -11,10 +11,6 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
-    "gatsby-plugin-theme-ui",
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
     "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-manifest",
@@ -22,8 +18,34 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    "gatsby-transformer-remark",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-sitemap",
+    "gatsby-plugin-theme-ui",
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1024,
+              wrapperStyle: (fluidResult) =>
+                `flex:${Math.round(fluidResult.aspectRatio)};`,
+            },
+          },
+        ],
+      },
+    },
     "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "blog",
+        path: "./src/pages/blog/",
+      },
+      __key: "markdown-pages",
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -39,14 +61,6 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "blog",
-        path: "./src/pages/blog/",
-      },
-      __key: "markdown-pages",
     },
   ],
 };

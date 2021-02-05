@@ -1,38 +1,36 @@
 import BlogSummary from "../components/BlogSummary";
+import { Container, Heading } from "theme-ui";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import PropTypes from "prop-types";
 import React from "react";
 
-const IndexPage = (props) => {
+const TagePage = ({ data, pageContext }) => {
   let i = 0;
-
   return (
-    <Layout>
-      {props.data.allMarkdownRemark.edges.map(({ node: post }) => (
+    <Layout title={pageContext.tag}>
+      <Container>
+        <Heading as="h2">#{pageContext.tag}</Heading>
+        <Heading as="h3">
+          {data.allMarkdownRemark.totalCount} article
+          {data.allMarkdownRemark.totalCount > 1 && "s"}
+        </Heading>
+      </Container>
+      {data.allMarkdownRemark.edges.map(({ node: post }) => (
         <BlogSummary key={post.id} post={post} numChild={i++} />
       ))}
     </Layout>
   );
 };
 
-export default IndexPage;
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-};
+export default TagePage;
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query TagPage($tag: String) {
     allMarkdownRemark(
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
-      limit: 10
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
+      totalCount
       edges {
         node {
           id

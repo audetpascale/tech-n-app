@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import { graphql, useStaticQuery } from "gatsby";
-import { Helmet } from "react-helmet";
 import Header from "./Header";
+import { Helmet } from "react-helmet";
 import { useLocation } from "@reach/router";
 import React from "react";
 

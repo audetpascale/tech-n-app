@@ -5,9 +5,10 @@ date: 2013-10-02T00:52:00.000Z
 image: begin.jpg
 description: Comment je me suis distinguée la toute première fois.
 tags:
-  - leadership
-  - humilité
+  - équipe
   - faim
+  - humilité
+  - leadership
   - service
 ---
 
@@ -32,7 +33,7 @@ Je gère quelques tâches et je fais quelques déploiements.
 Le grand jour arrive: ses vacances!
 Enthousiasme?
 Pas du tout, c'est la première fois que je dois leader une équipe.
-Dans mon insécurité, je me dis: "Comment est-ce que j'ai pu me rendre ici, moi qui n'est pas une fille de personne?"
+Dans mon insécurité, je me dis: "Comment est-ce que j'ai pu me rendre ici, moi qui n'est pas une _fille de personnes_?"
 Non, mais c'est vrai!
 Je suis dysphasique, je ne suis pas une communicatrice, je suis intravertie, j'ai peur des gens... je suis sauvage!
 Bon, ressaisis-toi Pascale, si elle croit en toi, tu y arriveras.

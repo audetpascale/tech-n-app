@@ -3,16 +3,23 @@ templateKey: blog-post
 title: The Five Dysfunctions of a Team
 date: 2017-08-01T20:03:00.000Z
 image: maslow.jpg
-description: En référence au livre The Five Dysfunctions of a Team de Patrick Lencioni, ce que j'ai appris.
+description: En référence au livre "The Five Dysfunctions of a Team" de Patrick Lencioni, ce que j'ai appris.
+tags:
+  - but
+  - confiance
+  - conflit
+  - engagement
+  - équipe
+  - redevabilité
 ---
 
 [_The Five Dysfunctions of a Team_](https://www.tablegroup.com/books/dysfunctions) de [Patrick Lencioni](https://www.tablegroup.com/pat/) est un livre que je recommande.
-Cet auteur utilise une fable pour expliquer un concept, c'est bien convaincant.
+Cet auteur utilise une fable pour expliquer un concept, c'est bien convaincant et utile.
 
-Bon, comment s'y prendre?
+Bon, comment s'y prendre pour l'applique dans un milieu de travail?
 Faisons comme le livre, prenons tous les membres pour faire un atelier commun.
 
-## Initial
+## Contexte
 
 Je suis chef d'équipe de la Plateforme de [Bonjour-santé](https://bonjour-sante.ca/), l'équipe va bien en général, tout comme les autres.
 Il y a des incidents, mais nous les réglons sans trop attendre.
@@ -89,7 +96,7 @@ _La poursuite des objectifs individuels et du statut personnel érode l'accent m
 
 Lui aussi, par manque de temps, je passe rapidement.
 En contre-partie, nous nous entendons pour aller chercher l'objectif du produit.
-Lorsque trouvé, nous questionnerons le support aux clients au semaine pour s'assurer l'atteinte du but.
+Lorsque trouvé, nous questionnerons le support aux clients à toutes les semaines pour s'assurer l'atteinte du but.
 
 ## Final
 
