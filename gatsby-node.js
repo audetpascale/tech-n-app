@@ -45,7 +45,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     let tags = new Set();
     posts.forEach((edge) => {
-      if (edge.node?.frontmatter?.tags != null) {
+      if (edge.node.frontmatter.tags != null) {
         edge.node.frontmatter.tags.forEach((tag) => tags.add(tag));
       }
     });
