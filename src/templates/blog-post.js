@@ -31,14 +31,16 @@ const BlogPost = ({ data }) => {
           </Heading>
           <Text dangerouslySetInnerHTML={{ __html: post.html }} />
           {tags && tags.length ? (
-            <div>
+            <section>
               <Heading as="h4">Étiquette</Heading>
-              {tags.map((tag) => (
-                <Link key={tag} to={`/tags/${tag}/`} sx={{ m: 1 }}>
-                  #{tag}
-                </Link>
-              ))}
-            </div>
+              <Text>
+                {tags.map((tag) => (
+                  <span key={tag}>
+                    <Link to={`/tags/${tag}/`}>#{tag}</Link>{" "}
+                  </span>
+                ))}
+              </Text>
+            </section>
           ) : null}
         </Container>
       </article>

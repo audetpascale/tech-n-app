@@ -19,6 +19,7 @@ export default {
     },
     main: {
       minHeight: "calc(100vh - 112px)",
+      p: 3,
     },
   },
   lineHeights: {
