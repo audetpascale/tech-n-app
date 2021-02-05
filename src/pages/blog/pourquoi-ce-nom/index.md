@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog-page
 title: Pourquoi ce nom?
 date: 2018-09-02T00:33:00.000Z
 image: technic.jpg

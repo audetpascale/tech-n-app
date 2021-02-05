@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog-page
 title: Symmathésie
 date: 2019-05-17T23:31:00.000Z
 image: kata.jpg

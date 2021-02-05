@@ -5,7 +5,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import PropTypes from "prop-types";
 
-const BlogPost = ({ data }) => {
+const BlogPage = ({ data }) => {
   const { markdownRemark: post } = data;
   const tags = post.frontmatter.tags;
 
@@ -48,11 +48,11 @@ const BlogPost = ({ data }) => {
   );
 };
 
-BlogPost.propTypes = {
+BlogPage.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default BlogPost;
+export default BlogPage;
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {

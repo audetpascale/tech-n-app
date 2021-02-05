@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog-page
 title: The Five Dysfunctions of a Team
 date: 2017-08-01T20:03:00.000Z
 image: maslow.jpg

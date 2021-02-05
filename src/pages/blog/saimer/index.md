@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog-page
 title: S'aimer
 date: 2019-05-14T22:30:00.000Z
 image: aimer.jpg

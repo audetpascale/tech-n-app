@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog-page
 title: La matrice de maturité
 date: 2018-09-05T00:02:00.000Z
 image: divide.jpg

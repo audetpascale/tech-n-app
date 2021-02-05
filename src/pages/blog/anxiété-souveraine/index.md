@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog-page
 title: Anxiété souveraine
 date: 2019-05-06T18:37:00.000Z
 image: help.jpg

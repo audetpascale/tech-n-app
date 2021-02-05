@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog-page
 title: Comment changer une culture?
 date: 2019-09-15T22:39:00.000Z
 image: people.jpg

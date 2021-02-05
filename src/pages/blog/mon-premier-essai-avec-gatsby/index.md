@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog-page
 title: Mon premier essai avec Gatsby
 date: 2019-05-03T23:28:00.000Z
 image: gatsby.jpg
