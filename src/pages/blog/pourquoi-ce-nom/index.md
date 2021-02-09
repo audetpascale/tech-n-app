@@ -3,7 +3,7 @@ templateKey: blog-page
 title: Pourquoi ce nom?
 date: 2018-09-02T00:33:00.000Z
 image: technic.jpg
-description: L'histoire derrière ce nom unique: "Tech 'n' app"
+description: L'histoire derrière ce nom unique, "Tech 'n' app"
 tags:
   - application
   - équipe
