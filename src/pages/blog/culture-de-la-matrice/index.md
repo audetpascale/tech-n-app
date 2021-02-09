@@ -3,7 +3,7 @@ templateKey: blog-page
 title: Culture de la matrice
 date: 2018-09-14T23:13:00.000Z
 image: data.jpg
-description: Comment appliquer le "Tribal Leadership" à la matrice de la maturité.
+description: Comment appliquer le "Tribal Leadership" à la matrice de la maturité
 tags:
   - collaboration
   - expérience

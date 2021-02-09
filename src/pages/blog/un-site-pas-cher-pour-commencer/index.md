@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog-page
 title: Un site pas cher pour commencer
 date: 2021-01-23T00:57:16.180Z
 image: site.jpg
@@ -9,6 +9,7 @@ tags:
   - gratuit
   - osbl
 ---
+
 Un site web est une bonne vitrine pour votre organisme.
 Que vous faut-il?
 
