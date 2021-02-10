@@ -3,8 +3,7 @@ templateKey: blog-page
 title: Traitement de la plainte "C'est trop fort!"
 date: 2014-02-10T01:15:00.000Z
 image: volume.jpg
-description: Traduction libre de l'article "Handling the “It's Too Loud”
-  Complaint" de FaithLife.
+description: Traduction libre de l'article "Handling the “It's Too Loud” Complaint" de FaithLife.
 tags:
   - faithlife
   - son
@@ -79,4 +78,4 @@ Suggérez un autre siège et vous pourriez atteindre une résolution sans touche
 
 Travaillez progressivement jusqu'à ce que vous entendiez :
 **"Je suis désolé d'entendre ça. Nous vérifierons les niveaux la semaine prochaine".**
-Puisque vous mesurez les niveaux et que vous avez établi une ligne de base, vous pouvez dire cela sans une once d'hypocrisie.
+Puisque vous mesurez les niveaux et que vous avez établi une ligne de base, vous pouvez dire cela sans une once d'hypocrisie.

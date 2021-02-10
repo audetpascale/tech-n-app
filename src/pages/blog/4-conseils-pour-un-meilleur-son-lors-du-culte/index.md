@@ -3,8 +3,7 @@ templateKey: blog-page
 title: 4 conseils pour un meilleur son lors du culte
 date: 2014-04-10T23:49:00.000Z
 image: console.jpg
-description: Traduction libre de l'article "4 Tips for Better Worship Audio”
-  Complaint" de FaithLife.
+description: Traduction libre de l'article "4 Tips for Better Worship Audio" de FaithLife.
 tags:
   - faithlife
   - son
@@ -53,4 +52,5 @@ La plupart d'entre eux - surtout les barytons et les ténors - peuvent se perdre
 La guitare, la basse, le kick et les toms fonctionnent tous dans la même gamme de 5 à 10 Hz.
 Coupez les voix masculines dans cette gamme (325-350 Hz) d'environ cinq dBs et vous entendrez leurs voix avec beaucoup plus de clarté.
 
-_Appliquez ces quatre conseils simples pour que votre mixage audio soit aussi bon que votre présentation Proclaim le semble._
+_Appliquez ces quatre conseils simples pour que votre mixage audio soit aussi bon que votre présentation Proclaim le semble.
+_
