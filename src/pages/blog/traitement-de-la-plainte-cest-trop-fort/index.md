@@ -3,7 +3,8 @@ templateKey: blog-page
 title: Traitement de la plainte "C'est trop fort!"
 date: 2014-02-10T01:15:00.000Z
 image: volume.jpg
-description: Traduction libre de l'article "Handling the “It's Too Loud” Complaint" de FaithLife.
+description: Traduction libre de l'article "Handling the “It's Too Loud”
+  Complaint" de FaithLife
 tags:
   - faithlife
   - son
