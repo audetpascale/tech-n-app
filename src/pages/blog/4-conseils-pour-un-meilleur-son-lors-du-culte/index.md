@@ -3,7 +3,7 @@ templateKey: blog-page
 title: 4 conseils pour un meilleur son lors du culte
 date: 2014-04-10T23:49:00.000Z
 image: console.jpg
-description: Traduction libre de l'article "4 Tips for Better Worship Audio" de FaithLife.
+description: Traduction libre de l'article "4 Tips for Better Worship Audio" de FaithLife
 tags:
   - faithlife
   - son
