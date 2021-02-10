@@ -13,6 +13,8 @@ tags:
 ---
 Cet article est une traduction libre de [Handling the "It's Too Loud" Complaint](https://blog.faithlife.com/blog/2013/06/handling-the-its-too-loud-complaint/) de [FaithLife](https://faithlife.com/).
 
+---
+
 À un moment donné, chaque pasteur sera confronté à des critiques sur le volume de la musique.
 Quelques mesures préventives vous permettront de vous préparer à l'inévitable plainte concernant le bruit.
 
