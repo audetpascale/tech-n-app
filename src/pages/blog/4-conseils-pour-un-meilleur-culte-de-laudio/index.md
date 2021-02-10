@@ -5,6 +5,13 @@ date: 2014-04-10T23:49:00.000Z
 image: console.jpg
 description: Traduction libre de l'article "4 Tips for Better Worship Audio”
   Complaint" de FaithLife.
+tags:
+  - faithlife
+  - son
+  - technique
+  - volume
+  - fréquence
+  - dynamique
 ---
 Cet article est une traduction libre de [4 Tips for Better Worship Audio](https://blog.faithlife.com/blog/2014/03/4-tips-for-better-worship-audio/) de [FaithLife](https://faithlife.com/).
 
