@@ -11,6 +11,7 @@ tags:
   - technique
   - volume
 ---
+
 Cet article est une traduction libre de [Handling the "It's Too Loud" Complaint](https://blog.faithlife.com/blog/2013/06/handling-the-its-too-loud-complaint/) de [FaithLife](https://faithlife.com/).
 
 ---
@@ -26,11 +27,11 @@ Il est important de mesurer le son dans l'auditorium, tant pour la fréquence qu
 La mesure utilisée pour mesurer le volume s'appelle un décibel (dB).
 Voici quelques repères courants :
 
-* 0 dB : bruissement des feuilles
-* 60 dB : conversation
-* 85 dB : trafic urbain
-* 100 dB : écouteurs de réserve au volume maximum
-* 120 dB : un coup de tonnerre
+- 0 dB : bruissement des feuilles
+- 60 dB : conversation
+- 85 dB : trafic urbain
+- 100 dB : écouteurs de réserve au volume maximum
+- 120 dB : un coup de tonnerre
 
 Vous pouvez acheter un dB-mètre à brancher directement sur votre carte de son, mais je préfère utiliser une application Android gratuite appelée [Noise Meter](https://play.google.com/store/apps/details?id=com.pjw.noisemeter&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5wancubm9pc2VtZXRlciJd).
 (Utilisateurs d'iOS, quel est votre équivalent préféré ?)
