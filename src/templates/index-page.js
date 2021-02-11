@@ -3,12 +3,22 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PropTypes from "prop-types";
 import React from "react";
+import { Container, Heading, Text } from "theme-ui";
 
 const IndexPage = (props) => {
   let i = 0;
 
   return (
     <Layout>
+      <Container>
+        <Heading as="h2">{props.data.markdownRemark.frontmatter.title}</Heading>
+        <Heading as="h4">
+          {props.data.markdownRemark.frontmatter.description}
+        </Heading>
+        <Text
+          dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
+        />
+      </Container>
       {props.data.allMarkdownRemark.edges.map(({ node: post }) => (
         <BlogSummary key={post.id} post={post} numChild={i++} />
       ))}
@@ -27,7 +37,7 @@ IndexPage.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query IndexQuery($id: String!) {
     allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "blog-page" } } }
       limit: 10
@@ -52,6 +62,20 @@ export const pageQuery = graphql`
             }
             templateKey
             title
+          }
+        }
+      }
+    }
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        title
+        description
+        image {
+          childImageSharp {
+            fluid(quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
           }
         }
       }
