@@ -11,9 +11,13 @@ const IndexPage = (props) => {
   return (
     <Layout>
       <Container>
-        <Heading as="h2">{props.data.markdownRemark.frontmatter.title}</Heading>
-        <Heading as="h4">
-          {props.data.markdownRemark.frontmatter.description}
+        <Heading as="h1">{props.data.site.siteMetadata.title}</Heading>
+        <Text>{props.data.site.siteMetadata.description}</Text>
+        <Heading as="h2">
+          {props.data.markdownRemark.frontmatter.heading}
+        </Heading>
+        <Heading as="h3">
+          {props.data.markdownRemark.frontmatter.subheading}
         </Heading>
         <Text
           dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
@@ -38,6 +42,12 @@ IndexPage.propTypes = {
 
 export const pageQuery = graphql`
   query IndexQuery($id: String!) {
+    site {
+      siteMetadata {
+        title
+        description
+      }
+    }
     allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "blog-page" } } }
       limit: 10
@@ -69,15 +79,8 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        title
-        description
-        image {
-          childImageSharp {
-            fluid(quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        heading
+        subheading
       }
     }
   }
