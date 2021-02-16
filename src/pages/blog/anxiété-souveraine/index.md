@@ -30,7 +30,7 @@ Tout l'opposé du calme. Que pouvons-nous donc apprendre?
 Le calme est pour les humbles.
 L'anxiété est pour les orgueilleux.
 
-L'humble reconnait sa limite.
+L'humble reconnaît sa limite.
 L'orgueilleux souhaite bien paraitre en se dépassant sa limite.
 
 L'humble peut se détacher et grandir.
@@ -41,4 +41,4 @@ Savoir qui nous sommes nous satisfaits.
 Cela n'empêche pas de nous défier.
 Au contraire, ce sera dans un cadre raisonnable.
 
-Sachons nous connaître pour vivre calmement.
+Sachons-nous connaître pour vivre calmement.
