@@ -88,5 +88,5 @@ Expérimentons continuellement, prenons des risques et apprenons de l’échec.
 
 Moins de 2% des cultures en milieu de travail sont de ce stade.
 
-Ils sont semblables au stade 4, mais dépourvu de tout concurrent.
+Ils sont semblables au stade 4, mais dépourvus de tout concurrent.
 Ainsi, ils peuvent se permettre l'erreur et s'amuser ensemble.
