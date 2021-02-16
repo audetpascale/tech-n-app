@@ -13,7 +13,7 @@ tags:
 C'est mon premier Tech'n App en tant qu'atelier.
 
 Ce qui est commun dans les discussions des développeurs est comment impacter le plus les clients.
-Certains parlent de leur idées, les tests, l'analyse, etc.
+Certains parlent de leurs idées, les tests, l'analyse, etc.
 Or, nous sommes en 2018, il doit bien y avoir un certain guide?
 
 Dans le mouvement DevOps, il y a beaucoup de techniques: le chemin critique, la théorie des contraintes, l'arbre de la réalité, Lean, Six Sigma, Kata, etc.
