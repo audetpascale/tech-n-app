@@ -28,7 +28,7 @@ J'offre mes services aux autres.
 Ils m'aident et je les aide: nous apprenons.
 
 De ce fait, elle m'a remarqué pour pouvoir l'assister dans son travail.
-Je la supporte du mieux que je peux techniquement.
+Je la supporte du mieux que je puisse techniquement.
 Je gère quelques tâches et je fais quelques déploiements.
 
 Le grand jour arrive: ses vacances!
@@ -41,8 +41,7 @@ Bon, ressaisis-toi Pascale, si elle croit en toi, tu y arriveras.
 
 Pendant ses vacances, je fais une gaffe lors d'un déploiement, suite à une étape problématique dans les procédures.
 L'architecte de la place vient me crier que je n'ai pas de bon sens.
-J'absorbe le coup sans rien dire, attendant que cela passe...
-En fait, je prends juste ce qui me revient.
+J'absorbe le coup sans rien dire, attendant que cela passe... en fait, je prends juste ce qui me revient.
 
 Deux semaines passent.
 
@@ -52,7 +51,7 @@ Je suis contente de mes accomplissements et de son retour.
 Je n'ai pas honte.
 Nous avons tous bien travaillé et j'en suis heureuse.
 
-L'ardeur du travail est donc une clé pour arriver aux leadership.
+L'ardeur du travail est donc une clé pour arriver au leadership.
 Y en a-t-il d'autres?
 
 ---
