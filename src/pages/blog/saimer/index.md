@@ -8,6 +8,7 @@ tags:
   - bible
   - aimer
 ---
+
 > Tu aimeras ton prochain comme toi-même.
 
 Un verset populaire de la Bible.

@@ -12,6 +12,7 @@ tags:
   - technologie
   - temps
 ---
+
 Je suis chef d'équipe de la Plateforme de [Bonjour-santé](https://bonjour-sante.ca/).
 Je me cherche du temps pour faire de la programmation.
 Je liste donc ce que je fais pour savoir comment optimiser mon temps.
@@ -29,7 +30,7 @@ Nous atteignons un bel équilibre.
 
 Un an passe.
 
-Un membre d'une autre équipe vient me voir pour demander si c'est possible d'avoir un *Lunch'n Learn* pour tous.
+Un membre d'une autre équipe vient me voir pour demander si c'est possible d'avoir un _Lunch'n Learn_ pour tous.
 Bien sûr!
 Voyant l'ouverture, nous invitons tous les gens du département à participer... mais il faut un nom significatif pour l'événement.
 
@@ -38,10 +39,10 @@ Lesquelles?
 Applicative.
 Technique.
 Technologique.
-Ok, donc *app* et *tech*.
+Ok, donc _app_ et _tech_.
 App'n tech, cela sonne bien?
 Non, je perds l'aspect de gagner du temps.
-Alors, *tech* et *app*.
+Alors, _tech_ et _app_.
 Tech'n app...
 Take a nap...
 Oui, j'ai pu prendre des siestes, car j'ai gagné du temps.

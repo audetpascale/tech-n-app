@@ -8,6 +8,7 @@ tags:
   - gatsby
   - technologie
 ---
+
 Quand je me déplace pour travailler à Boucherville, je covoiture.
 [Daniel](https://www.linkedin.com/in/danieljomphe/) est quelqu'un qui doit avoir une vue de 75% des choses qui se passent aux niveaux technique et technologique.
 Sérieux.
