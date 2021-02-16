@@ -8,15 +8,13 @@ tags:
   - gatsby
   - technologie
 ---
-
 Quand je me déplace pour travailler à Boucherville, je covoiture.
-[Daniel](https://www.linkedin.com/in/danieljomphe/) est quelqu'un qui doit avoir une vue de 75% des choses qui se passent au niveau technique et technologique.
+[Daniel](https://www.linkedin.com/in/danieljomphe/) est quelqu'un qui doit avoir une vue de 75% des choses qui se passent aux niveaux technique et technologique.
 Sérieux.
 
 Hier, dans le cadre d'une discussion sur [Medium](https://medium.com/), il me mentionnait des technologies pour propulser des sites.
-Je savais 1% de ce qu'il parlait...
-Ok, ok, je suis archaïque avec mon [Jekyll](https://jekyllrb.com/), et puis?
-C'est gratuit, il y a du hosting gratuit, etc.
+Je savais 1% de ce qu'il parlait... ok, ok, je suis archaïque avec mon [Jekyll](https://jekyllrb.com/), et puis?
+C'est gratuit, il y a l'hébergement gratuit, etc.
 Merveilleux, non?
 Pas assez selon Daniel.
 Il me mentionnait probablement une dizaine de technologies, avec des forces et faiblesses.
