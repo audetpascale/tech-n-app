@@ -8,11 +8,10 @@ tags:
   - bible
   - aimer
 ---
-
 > Tu aimeras ton prochain comme toi-même.
 
 Un verset populaire de la Bible.
-Comme beaucoup d'entre nous, je me suis fais jouer le tour.
+Comme beaucoup d'entre nous, je me suis fait jouer le tour.
 
 Quel est l'emphase du verset?
 `comme` est une conjonction qui nous sert souvent de comparaison.
@@ -23,7 +22,7 @@ Cependant... est-ce que nous nous aimons?
 Un jour, j'ai eu des maux d'estomac et j'avais vomi du sang.
 Je me suis dit: "Ah, c'est une 1e... si je recommence, j'irai voir un médecin."
 
-Ok... Beaucoup m'ont dit: "Vas voir le médecin, voyons dont!"
+Ok... Beaucoup m'ont dit: "Vas voir le médecin, voyons donc!"
 J'imagine que vous vous dites la même chose.
 Vous souhaitez mon bien, car vous m'aimez.
 Or, je n'y ai pas été.
