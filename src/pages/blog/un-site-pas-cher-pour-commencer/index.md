@@ -37,7 +37,7 @@ L'engin gratuit qui vous donne le plus de possibilités sans frais de plus, c'es
 La plateforme est restreinte, je l'accorde, mais donne beaucoup sans devoir se soucier des certificats SSL, de l'hébergement, du stockage, de la bande passante, etc.
 
 Autres avantages de Google Sites?
-Les intégrations sont simples avec Google et vous avez aussi avantages à vous inscrire à [G Suite pour OSBL (Google Workspace dans un futur proche)](https://support.google.com/nonprofits/answer/3367223?hl=fr-CA).
+Les intégrations sont simples avec Google et vous avez aussi des avantages à vous inscrire à [G Suite pour OSBL (Google Workspace dans un futur proche)](https://support.google.com/nonprofits/answer/3367223?hl=fr-CA).
 Vous pouvez aussi avoir quelques courriels avec votre domaine gratuitement.
 
 Essayez Google Sites avec ses options.
