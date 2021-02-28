@@ -9,6 +9,7 @@ tags:
   - collaborateworship
   - son
   - technique
+  - tutorat
 ---
 Cet article est une traduction libre de [_Train New Church Sound Volunteers (without running them off)_](https://collaborateworship.com/train-church-sound/) de [Collaborate Worship](https://collaborateworship.com/).
 
