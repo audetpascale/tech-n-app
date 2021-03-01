@@ -57,7 +57,7 @@ Cela peut sembler redondant, mais c'est essentiel pour aider le nouveau volontai
 
 Vous vous demandez peut-être quels concepts enseigner chaque semaine. Laissez-moi vous montrer comment je le décompose en sept concepts simples. A raison d'un par semaine, vous pouvez avoir un nouveau volontaire du son en sept semaines seulement.
 
-- Semaine 1 - Concentrez-vous sur les faders et sur la création d'un bon mixage à l'aide de la tricherie de mixage
+- Semaine 1 - Concentrez-vous sur les faders et sur la création d'un bon mixage à l'aide de la feuille de travail
 - Semaine 2 - Gain
 - Semaine 3 - Filtre coupe-bas
 - Semaine 4 - Mélange des moniteurs et des bus
