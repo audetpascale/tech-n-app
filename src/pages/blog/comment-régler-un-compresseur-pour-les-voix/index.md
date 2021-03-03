@@ -94,9 +94,9 @@ Je recommande de choisir cette option avec des temps d'attaque et de relâchemen
 Gardez à l'esprit que vous ne voudrez utiliser le réglage automatique que pour les voix.
 Si vous comprimez une caisse claire ou un autre instrument, vous devrez les régler manuellement pour obtenir l'effet souhaité.
 
-## Production ou gain
+## Sortie ou gain
 
-Le réglage de la puissance d'un compresseur fait ce que vous pensez : il ajuste le volume de la puissance.
+Le réglage de sortie d'un compresseur fait ce que vous pensez : il ajuste le volume de la sortie.
 Ainsi, si le compteur de réduction de gain indique que vous comprimez le signal de 6dB en moyenne, vous voudrez régler la sortie sur +6dB pour compenser la différence.
 
 Cela ramène le signal à son point de départ, mais avec une plage dynamique plus petite.
@@ -107,4 +107,4 @@ En d'autres termes, les moments les plus silencieux sont maintenant plus forts e
 Si vous utilisez une carte de son numérique, la compression est très probablement intégrée pour chaque canal.
 Alors, utilisez ce que vous avez appris dans cet article pour le composer comme il se doit.
 
-...
+... Pour la suite, veuillez aller dans l'article original, merci!
