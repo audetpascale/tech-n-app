@@ -57,7 +57,7 @@ Commencez par les orienter tout droit vers le bas, et si vous obtenez un son biz
 
 ## Réglez le gain correctement pour chaque microphone.
 
-Maintenant que vous avez une batterie qui sonne bien à la source et les bons microphones, il est temps de commencer à composer à la table de mixage.
+Maintenant que vous avez une batterie qui sonne bien à la source et les bons microphones, il est temps de commencer à composer à la console de mixage.
 Le conseil le plus important que je puisse vous donner en matière de mixage est de régler correctement votre gain.
 Si vous ne le faites pas, tout le reste va se casser la figure.
 Si vous n'êtes pas sûr de savoir comment régler le gain, n'hésitez pas à consulter ce post : [How to Set the Gain on Your Mixer](https://collaborateworship.com/how-to-set-gain/).
