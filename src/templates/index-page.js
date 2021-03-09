@@ -69,11 +69,7 @@ const IndexPage = (props) => {
 export default IndexPage;
 
 IndexPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
+  data: PropTypes.object,
 };
 
 export const pageQuery = graphql`

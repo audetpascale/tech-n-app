@@ -4,10 +4,11 @@ import Header from "./Header";
 import { Helmet } from "react-helmet";
 import { useLocation } from "@reach/router";
 import React from "react";
+import PropTypes from "prop-types";
 
 const Layout = ({ children, title, description, image, ogType }) => {
-  const data = useStaticQuery(graphql`
-    query siteMetadata {
+  const defaultSiteMetadata = useStaticQuery(graphql`
+    query defaultSiteMetadata {
       site {
         siteMetadata {
           title
@@ -23,12 +24,17 @@ const Layout = ({ children, title, description, image, ogType }) => {
   `);
 
   const seo = {
-    title: (title == null ? "" : `${title} | `) + data.site.siteMetadata.title,
-    description: description || data.site.siteMetadata.description,
-    image: `${data.site.siteMetadata.siteUrl}${
-      image || data.site.siteMetadata.image
+    title:
+      (title == null ? "" : `${title} | `) +
+      defaultSiteMetadata.site.siteMetadata.title,
+    description:
+      description || defaultSiteMetadata.site.siteMetadata.description,
+    image: `${defaultSiteMetadata.site.siteMetadata.siteUrl}${
+      image || defaultSiteMetadata.site.siteMetadata.image
     }`,
-    url: `${data.site.siteMetadata.siteUrl}${useLocation().pathname}`,
+    url: `${defaultSiteMetadata.site.siteMetadata.siteUrl}${
+      useLocation().pathname
+    }`,
   };
 
   return (
@@ -48,7 +54,9 @@ const Layout = ({ children, title, description, image, ogType }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:creator"
-          content={data.site.siteMetadata.description.twitterUsername}
+          content={
+            defaultSiteMetadata.site.siteMetadata.description.twitterUsername
+          }
         />
         <meta name="twitter:description" content={seo.description} />
         <meta name="twitter:image" content={seo.image} />
@@ -56,11 +64,19 @@ const Layout = ({ children, title, description, image, ogType }) => {
       <Header />
       {children}
       <Footer
-        author={data.site.siteMetadata.author}
-        title={data.site.siteMetadata.title}
+        author={defaultSiteMetadata.site.siteMetadata.author}
+        title={defaultSiteMetadata.site.siteMetadata.title}
       />
     </div>
   );
 };
 
 export default Layout;
+
+Layout.propTypes = {
+  children: PropTypes.element,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  image: PropTypes.string,
+  ogType: PropTypes.string,
+};

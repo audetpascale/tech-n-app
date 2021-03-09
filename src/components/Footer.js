@@ -1,8 +1,9 @@
 /** @jsx jsx */
 // noinspection ES6UnusedImports
 import { Container, Image, jsx, Text } from "theme-ui";
+import PropTypes from "prop-types";
 
-const Menu = ({ author, title }) => {
+const Footer = ({ author, title }) => {
   return (
     <footer sx={{ backgroundColor: "muted" }}>
       <Container>
@@ -25,4 +26,9 @@ const Menu = ({ author, title }) => {
   );
 };
 
-export default Menu;
+export default Footer;
+
+Footer.propTypes = {
+  author: PropTypes.string,
+  title: PropTypes.string,
+};

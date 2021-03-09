@@ -2,8 +2,9 @@
 // noinspection ES6UnusedImports
 import { Box, Container, Grid, Heading, jsx, Text } from "theme-ui";
 import { Link } from "gatsby";
+import PropTypes from "prop-types";
 
-const BlogSummary = ({ post, numChild }) => {
+const BlogSummary = ({ numChild, post }) => {
   const img = (
     <Box
       key="img"
@@ -48,3 +49,8 @@ const BlogSummary = ({ post, numChild }) => {
 };
 
 export default BlogSummary;
+
+BlogSummary.propTypes = {
+  numChild: PropTypes.number,
+  post: PropTypes.object,
+};
