@@ -10,6 +10,7 @@ tags:
   - son
   - technique
 ---
+
 Cet article est une traduction libre de [5 Tips for an Amazing Drum Mix](https://collaborateworship.com/drum-mix/) de [Collaborate Worship](https://collaborateworship.com/).
 
 Avez-vous déjà quitté un concert de haut niveau en étant complètement étonné de la sonorité de la batterie ?
@@ -45,15 +46,15 @@ J'utilise ces microphones depuis des années et je n'ai jamais été insatisfait
 
 Voici quelques conseils pour placer correctement vos microphones :
 
-* Caisse claire et toms - Le microphone doit être placé sur le bord de la peau du tambour à environ 1 pouce de la peau et pointer vers le centre de la peau.
-* Grosse caisse - Il faudra faire quelques expériences pour le placer.
-Vous pouvez placer le microphone à l'intérieur de la grosse caisse pour obtenir un meilleur son de "clic" lorsque le batteur frappe la peau.
-Vous pouvez aussi le placer juste à l'extérieur du trou pour obtenir un son plus rond et plus profond.
-Tout dépend donc de ce que vous recherchez.
-Personnellement, je place le micro juste à l'intérieur du trou pour obtenir un bon équilibre entre le clic et l'énergie.
-* Micros aériens - Les micros aériens doivent être à égale distance du sol.
-J'ai trouvé un bon emplacement pour être à environ deux pieds au-dessus de vos cymbales crash.
-Commencez par les orienter tout droit vers le bas, et si vous obtenez un son bizarre de vos cymbales, essayez de les orienter parallèlement aux cymbales crash.
+- Caisse claire et toms - Le microphone doit être placé sur le bord de la peau du tambour à environ 1 pouce de la peau et pointer vers le centre de la peau.
+- Grosse caisse - Il faudra faire quelques expériences pour le placer.
+  Vous pouvez placer le microphone à l'intérieur de la grosse caisse pour obtenir un meilleur son de "clic" lorsque le batteur frappe la peau.
+  Vous pouvez aussi le placer juste à l'extérieur du trou pour obtenir un son plus rond et plus profond.
+  Tout dépend donc de ce que vous recherchez.
+  Personnellement, je place le micro juste à l'intérieur du trou pour obtenir un bon équilibre entre le clic et l'énergie.
+- Micros aériens - Les micros aériens doivent être à égale distance du sol.
+  J'ai trouvé un bon emplacement pour être à environ deux pieds au-dessus de vos cymbales crash.
+  Commencez par les orienter tout droit vers le bas, et si vous obtenez un son bizarre de vos cymbales, essayez de les orienter parallèlement aux cymbales crash.
 
 ## Réglez le gain correctement pour chaque microphone.
 

@@ -12,6 +12,7 @@ tags:
   - technique
   - volume
 ---
+
 Cet article est une traduction libre de [How to Set a Compressor for Vocals](https://collaborateworship.com/set-compressor-vocals/) de [Collaborate Worship](https://collaborateworship.com/).
 
 ---
