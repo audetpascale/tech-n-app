@@ -1,6 +1,7 @@
 /** @jsx jsx */
 // noinspection ES6UnusedImports
 import { Box, Container, Grid, Heading, jsx, Text } from "theme-ui";
+import { getSrc } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 
@@ -9,7 +10,9 @@ const BlogSummary = ({ numChild, post }) => {
     <Box
       key="img"
       sx={{
-        backgroundImage: `url(${post.frontmatter.image.childImageSharp.fluid.src})`,
+        backgroundImage: `url(${getSrc(
+          post.frontmatter.image.childImageSharp.gatsbyImageData
+        )})`,
         backgroundPosition: "center",
         backgroundSize: "100% auto",
       }}

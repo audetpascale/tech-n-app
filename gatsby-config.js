@@ -10,6 +10,7 @@ module.exports = {
     twitterUsername: "audetpascalea",
   },
   plugins: [
+    `gatsby-plugin-image`,
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-offline",
     {

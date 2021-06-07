@@ -1,7 +1,8 @@
 /** @jsx jsx */
 // noinspection ES6UnusedImports
-import { Container, Image, jsx, Text } from "theme-ui";
+import { Container, jsx, Text } from "theme-ui";
 import PropTypes from "prop-types";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Footer = ({ author, title }) => {
   return (
@@ -10,11 +11,11 @@ const Footer = ({ author, title }) => {
         <Text>
           © 2013 - {new Date().getFullYear()} {author}.
           <span sx={{ float: "right" }}>
-            <Image
+            <StaticImage
               alt="tech 'n' app"
-              src="/icons/icon-48x48.png"
-              mb="-6px"
-              sx={{ size: "20px" }}
+              src="../images/icon.png"
+              width={20}
+              height={20}
             />
             {title} est propulsé par{" "}
             <a href="https://www.gatsbyjs.com/">Gatsby</a> et{" "}

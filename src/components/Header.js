@@ -1,6 +1,7 @@
 /** @jsx jsx */
 // noinspection ES6UnusedImports
-import { Container, Flex, Image, jsx, NavLink } from "theme-ui";
+import { Container, Flex, jsx, NavLink } from "theme-ui";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Header = () => {
   return (
@@ -9,7 +10,13 @@ const Header = () => {
         <Container>
           <Flex as="nav">
             <NavLink href="/" px={4}>
-              <Image alt="tech 'n' app" src="/icons/icon-48x48.png" my={-3} />
+              <StaticImage
+                alt="tech 'n' app"
+                src="../images/icon.png"
+                sx={{ my: -3 }}
+                width={48}
+                height={48}
+              />
               Accueil
             </NavLink>
             <NavLink href="/tags" px={4}>

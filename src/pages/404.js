@@ -9,7 +9,7 @@ const NotFoundPage = () => {
     <Layout title="Introuvable" description="Take a nap!">
       <div
         sx={{
-          backgroundImage: 'url("/img/take-a-nap.jpg")',
+          backgroundImage: "url('/img/take-a-nap.jpg')",
           backgroundPosition: "center",
           width: "100%",
         }}

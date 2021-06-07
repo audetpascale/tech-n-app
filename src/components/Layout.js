@@ -74,7 +74,6 @@ const Layout = ({ children, title, description, image, ogType }) => {
 export default Layout;
 
 Layout.propTypes = {
-  children: PropTypes.element,
   title: PropTypes.string,
   description: PropTypes.string,
   image: PropTypes.string,

@@ -1,6 +1,7 @@
 /** @jsx jsx */
 // noinspection ES6UnusedImports
 import { Container, Heading, Image, jsx, Text } from "theme-ui";
+import { getSrc } from "gatsby-plugin-image";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import PropTypes from "prop-types";
@@ -12,12 +13,12 @@ const AboutPage = ({ data }) => {
     <Layout
       title={post.frontmatter.title}
       description={post.frontmatter.description}
-      image={post.frontmatter.image.childImageSharp.fluid.src}
+      image={getSrc(post.frontmatter.image.childImageSharp.gatsbyImageData)}
       ogType="article:author"
     >
       <Container variant="main">
         <Image
-          src={post.frontmatter.image.childImageSharp.fluid.src}
+          src={getSrc(post.frontmatter.image.childImageSharp.gatsbyImageData)}
           variant="heading"
           sx={{ objectPosition: "bottom" }}
         />
@@ -50,9 +51,7 @@ export const pageQuery = graphql`
         description
         image {
           childImageSharp {
-            fluid(quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
       }

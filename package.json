@@ -18,7 +18,7 @@
     "@theme-ui/presets": "*",
     "apexcharts": "*",
     "gatsby": "*",
-    "gatsby-image": "*",
+    "gatsby-plugin-image": "*",
     "gatsby-plugin-manifest": "*",
     "gatsby-plugin-netlify-cms": "*",
     "gatsby-plugin-offline": "*",
