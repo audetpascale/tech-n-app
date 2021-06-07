@@ -30,10 +30,7 @@
     "gatsby-source-filesystem": "*",
     "gatsby-transformer-remark": "*",
     "gatsby-transformer-sharp": "*",
-    "husky": "*",
-    "lint-staged": "*",
     "netlify-cms-app": "*",
-    "prettier": "*",
     "prop-types": "*",
     "react": "*",
     "react-apexcharts": "*",
@@ -41,12 +38,12 @@
     "react-helmet": "*",
     "theme-ui": "*"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "devDependencies": {
+    "husky": "*",
+    "lint-staged": "*",
+    "prettier": "*"
   },
   "lint-staged": {
-    "*": "prettier --write . --ignore-path .gitignore"
+    "*": "prettier --write . --ignore-path .prettierignore"
   }
 }
